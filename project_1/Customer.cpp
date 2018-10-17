@@ -1,3 +1,8 @@
+//Anton Goretsky
+//CS 235
+//Project 1
+//Implementation of the Customer class
+
 //imported objects, libraries , files.
 #include <iostream>
 #include <string>

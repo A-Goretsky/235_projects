@@ -1,3 +1,8 @@
+//Anton Goretsky
+//CS 235
+//Project 1
+//Implementation of the GeniusBar class
+
 #include <iostream>
 #include <string>
 #include "GeniusBar.hpp"
