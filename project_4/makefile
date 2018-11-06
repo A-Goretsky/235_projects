@@ -9,8 +9,9 @@ main.o: main.cpp MazeSolver.h
 MazeSolver.o: MazeSolver.cpp MazeSolver.h
 	g++ $(CXXFLAGS) -c MazeSolver.cpp
 
-debug: main 
-	-g -fsanitize=address, undefined
+debug: CXXFLAGS:=$(CXXFLAGS) -g -fsanitize=address,undefined
+
+debug: main
 
 clean:
 	rm main.o MazeSolver.o
