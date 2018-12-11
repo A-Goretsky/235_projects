@@ -23,7 +23,7 @@ using namespace std::chrono;
  @param a the array to sort
  @param size the number of elements in a
  */
-void selectionSort(int a[], std::size_t size);
+void selectionSort(int a[], size_t size);
 
 /**
  @post Sorts an array in ascending order using insertion sort.
