@@ -1,3 +1,6 @@
+//ANTON GORETSKY
+//Sorting Tests Implementation
+
 #include <iostream>
 #include "SortingTests.hpp"
 #include <utility>    // for std::swap
